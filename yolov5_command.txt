@@ -1,0 +1,10 @@
+python train.py --img 640 --batch 50 --epochs 100 --data ../data/fire.yaml --weights yolov5s.pt --nosave --cache
+
+https://blog.csdn.net/qq_45701791/article/details/113992622
+
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+ my command:
+ *********************
+ 莫忘记更改model文件夹下面的yolov5s.yaml文件更改类别数目nc。。。。
+python train.py --img 640 --batch 4 --epochs 100 --data /home/gzw/下载/experiment/experiment/old_label_dataset/yolov5/fire-yolov5_new/dataset/data/data.yaml --weights yolov5s.pt --nosave --cache
+python detect.py --source /media/gzw/数据/模型留底/yolov5/yolov5-master/VID_20210418_114930.mp4 --weights /media/gzw/数据/模型留底/yolov5/yolov5-master/runs/train/exp14/weights/last.pt --conf 0.5

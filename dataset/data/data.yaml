@@ -1,0 +1,6 @@
+train: /media/gzw/陈成/lutao_homework/train
+val: /media/gzw/陈成/lutao_homework/val
+
+nc: 2
+names: ['soccer','goal']
+
